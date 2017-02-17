@@ -4,12 +4,16 @@
               android:layout_width="match_parent"
               android:layout_height="wrap_content">
 
+
+    <!--android:textAlignment="center"-->
     <TextView
-        android:height="40dp"
+        android:height="50dp"
         android:padding="10dp"
-        android:textAlignment="center"
+        android:textSize="18sp"
         android:background="@android:color/holo_green_light"
         android:text="TextView"
+        android:gravity="center"
+        android:textColor="@android:color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/title"/>
